@@ -15,7 +15,7 @@ function sentencesManipulation(kalimat)
       hasil.push(hapus.concat(awal,tambah));
     }
     }
-      console.log(hasil[0].concat(" "+hasil[1]," "+hasil[2]," "+hasil[3]," "+hasil[4]," "+hasil[5]));
+      console.log(hasil.join(" "));
 }
 
 sentencesManipulation('ibu pergi ke pasar bersama aku');
